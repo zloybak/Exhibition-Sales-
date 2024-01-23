@@ -5,11 +5,6 @@ import numpy as np
 import plotly.express as px
 import os
 
-#change the directory 
-current_script_directory = os.path.dirname(os.path.abspath(__file__))
-os.chdir(current_script_directory)
-
-
 df = pd.read_excel(r"data\exhibition_EU_clients1.xlsx")
 
 # ---- MAINPAGE ----
